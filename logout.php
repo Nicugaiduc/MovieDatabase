@@ -1,0 +1,10 @@
+<?php 
+	session_start();
+	session_unset();
+	session_destroy();
+
+	header("Location: index.php?login=you_are_logged_out
+		");
+			exit();
+
+?>
